@@ -14,6 +14,6 @@
 
 * SKY130 Spice File.
 .param
-+ sky130_fd_pr__nfet_01v8_lvt__ajunction_mult = 1.1229e+0
-+ sky130_fd_pr__nfet_01v8_lvt__pjunction_mult = 1.0009e+0
++  sky130_fd_pr__nfet_01v8_lvt__ajunction_mult=1.1229e+0
++  sky130_fd_pr__nfet_01v8_lvt__pjunction_mult=1.0009e+0
 .include "sky130_fd_pr__nfet_01v8_lvt__ss.pm3.spice"

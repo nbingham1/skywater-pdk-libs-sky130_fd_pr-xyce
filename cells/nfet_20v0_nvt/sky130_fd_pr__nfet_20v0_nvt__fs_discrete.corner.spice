@@ -18,8 +18,8 @@
 * , Bin 000, W = 30.0, L = 1.0
 * ----------------------------
 .param
-+ sky130_fd_pr__nfet_20v0_nvt__rdrift_mult = 1.3479e+0
-+ sky130_fd_pr__nfet_20v0_nvt__hvvsat_mult = 7.9823e-1
-+ sky130_fd_pr__nfet_20v0_nvt__vth0_diff = 1.6910e-1
-+ sky130_fd_pr__nfet_20v0_nvt__k2_diff = -1.1937e-1
++  sky130_fd_pr__nfet_20v0_nvt__rdrift_mult=1.3479e+0
++  sky130_fd_pr__nfet_20v0_nvt__hvvsat_mult=7.9823e-1
++  sky130_fd_pr__nfet_20v0_nvt__vth0_diff=1.6910e-1
++  sky130_fd_pr__nfet_20v0_nvt__k2_diff=-1.1937e-1
 .include "sky130_fd_pr__nfet_20v0_nvt__subcircuit.pm3.spice"

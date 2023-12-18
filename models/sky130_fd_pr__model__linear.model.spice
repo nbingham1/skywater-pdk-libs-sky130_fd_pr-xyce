@@ -13,8 +13,8 @@
 * limitations under the License.
 
 * SKY130 Spice File.
-.param sky130_fd_pr__res_high_po__slope_spectre = 0.0
-.param sky130_fd_pr__res_high_po__con_slope_spectre = 0.0
+.param sky130_fd_pr__res_high_po__slope_spectre=0.0
+.param sky130_fd_pr__res_high_po__con_slope_spectre=0.0
 * statistics {
 * 	mismatch {
 *   		vary  sky130_fd_pr__res_high_po__slope_spectre dist=gauss std=1.0

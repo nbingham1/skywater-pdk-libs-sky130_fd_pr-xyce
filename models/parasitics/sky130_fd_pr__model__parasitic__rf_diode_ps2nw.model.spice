@@ -13,18 +13,16 @@
 * limitations under the License.
 
 * SKY130 Spice File.
-.subckt  sky130_fd_pr__model__parasitic__rf_diode_ps2nw c0 c1
-+ 
-.param  area = -1 perim = -1.0
-+ 
-+ ra1 = 7.6e+5
-+ ra2 = 2000.0
-+ rp1_diode = 3750.0
-+ wl = {sqrt(0.0625*perim*perim-area)}
-+ wi = {perim/4+wl}
-+ le = {perim/4-wl}
-rnwdiode_rf c0     a1  r = {(ra1/area+ra2/(le/wi+wi/le))*(9.8286e-01*2-sky130_fd_pr__model__parasitic__diode_ps2nw__ajunction_mult)}
-rp c0    p1 r = {(rp1_diode/perim)*(9.8954e-01*2-sky130_fd_pr__model__parasitic__diode_ps2nw__pjunction_mult)}
-da a1    c1 sky130_fd_pr__model__parasitic__diode_ps2nw_noresistor area = {area}
-dp p1    c1 sky130_fd_pr__model__parasitic__diode_ps2nw_noresistor area = 1.0e-18
+.subckt sky130_fd_pr__model__parasitic__rf_diode_ps2nw c0 c1
+.param area=-1 perim=-1.0
++  ra1=7.6e+5
++  ra2=2000.0
++  rp1_diode=3750.0
++  wl={sqrt(0.0625*perim*perim-area)}
++  wi={perim/4+wl}
++  le={perim/4-wl}
+rnwdiode_rf c0 a1 r={(ra1/area+ra2/(le/wi+wi/le))*(9.8286e-01*2-sky130_fd_pr__model__parasitic__diode_ps2nw__ajunction_mult)}
+rp c0 p1 r={(rp1_diode/perim)*(9.8954e-01*2-sky130_fd_pr__model__parasitic__diode_ps2nw__pjunction_mult)}
+da a1 c1 sky130_fd_pr__model__parasitic__diode_ps2nw_noresistor area={area}
+dp p1 c1 sky130_fd_pr__model__parasitic__diode_ps2nw_noresistor area=1.0e-18
 .ends sky130_fd_pr__model__parasitic__rf_diode_ps2nw

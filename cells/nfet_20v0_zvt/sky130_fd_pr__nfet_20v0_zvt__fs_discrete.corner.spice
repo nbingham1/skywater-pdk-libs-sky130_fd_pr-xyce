@@ -18,15 +18,15 @@
 * , Bin 000, W = 30.0, L = 1.0
 * ----------------------------
 .param
-+ sky130_fd_pr__nfet_20v0_zvt__rdrift_mult = 2.72399819900946
-+ sky130_fd_pr__nfet_20v0_zvt__hvvsat_mult = 1.0
-+ sky130_fd_pr__nfet_20v0_zvt__vth0_diff = 0.05532
-+ sky130_fd_pr__nfet_20v0_zvt__k2_diff = 0.0
-+ sky130_fd_pr__nfet_20v0_zvt__lint_diff= 0.0
-+ sky130_fd_pr__nfet_20v0_zvt__u0_diff = 0.0
-+ sky130_fd_pr__nfet_20v0_zvt__agidl_diff = 0.0
-+ sky130_fd_pr__nfet_20v0_zvt__vsat_diff = 0.0
-+ sky130_fd_pr__nfet_20v0_zvt__keta_diff = 0.18724
-+ sky130_fd_pr__nfet_20v0_zvt__ags_diff = 1.4855e+0
-+ n20zvtvh1defet_js_mult_pmc = 1.0
++  sky130_fd_pr__nfet_20v0_zvt__rdrift_mult=2.72399819900946
++  sky130_fd_pr__nfet_20v0_zvt__hvvsat_mult=1.0
++  sky130_fd_pr__nfet_20v0_zvt__vth0_diff=0.05532
++  sky130_fd_pr__nfet_20v0_zvt__k2_diff=0.0
++  sky130_fd_pr__nfet_20v0_zvt__lint_diff=0.0
++  sky130_fd_pr__nfet_20v0_zvt__u0_diff=0.0
++  sky130_fd_pr__nfet_20v0_zvt__agidl_diff=0.0
++  sky130_fd_pr__nfet_20v0_zvt__vsat_diff=0.0
++  sky130_fd_pr__nfet_20v0_zvt__keta_diff=0.18724
++  sky130_fd_pr__nfet_20v0_zvt__ags_diff=1.4855e+0
++  n20zvtvh1defet_js_mult_pmc=1.0
 .include "sky130_fd_pr__nfet_20v0_zvt__subcircuit.pm3.spice"

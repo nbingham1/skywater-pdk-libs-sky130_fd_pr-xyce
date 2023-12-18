@@ -15,6 +15,6 @@
 * SKY130 Spice File.
 * Number of bins: 0
 .param
-+ sky130_fd_pr__nfet_g5v0d10v5__ajunction_mult = 8.7078e-1
-+ sky130_fd_pr__nfet_g5v0d10v5__pjunction_mult = 8.4883e-1
++  sky130_fd_pr__nfet_g5v0d10v5__ajunction_mult=8.7078e-1
++  sky130_fd_pr__nfet_g5v0d10v5__pjunction_mult=8.4883e-1
 .include "sky130_fd_pr__nfet_g5v0d10v5__ff.pm3.spice"

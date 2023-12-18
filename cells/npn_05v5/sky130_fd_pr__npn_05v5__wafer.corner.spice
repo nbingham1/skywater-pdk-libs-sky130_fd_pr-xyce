@@ -15,9 +15,9 @@
 * SKY130 Spice File.
 *  Typical Parameters
 .param
-+ dkisnpn1x1=1.0 dkbfnpn1x1=1.0
-+ dkisnpn1x2=1.0 dkbfnpn1x2=1.0
-+ dkisnpnpolyhv=1.0 dkbfnpnpolyhv=1.0
++  dkisnpn1x1=1.0 dkbfnpn1x1=1.0
++  dkisnpn1x2=1.0 dkbfnpn1x2=1.0
++  dkisnpnpolyhv=1.0 dkbfnpnpolyhv=1.0
 .include "sky130_fd_pr__npn_05v5_W1p00L1p00.model.spice"
 .include "sky130_fd_pr__npn_05v5_W1p00L2p00.model.spice"
 .include "../npn_11v0/sky130_fd_pr__npn_11v0_W1p00L1p00.model.spice"

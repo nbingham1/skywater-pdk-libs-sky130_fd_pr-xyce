@@ -13,7 +13,7 @@
 * limitations under the License.
 
 * SKY130 Spice File.
-.param sky130_fd_pr__model__cap_vpp_only_p__slope = 0.0
+.param sky130_fd_pr__model__cap_vpp_only_p__slope=0.0
 * statistics {
 *   mismatch {
 *     vary  sky130_fd_pr__model__cap_vpp_only_p__slope dist=gauss std=1.0

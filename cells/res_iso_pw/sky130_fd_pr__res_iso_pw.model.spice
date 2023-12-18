@@ -13,16 +13,15 @@
 * limitations under the License.
 
 * SKY130 Spice File.
-.subckt  sky130_fd_pr__res_iso_pw r0 r1 b
-+ 
-.param  l = -1 mult = 1.0
-+ w = 2.65
-+ dl = 0.52
-+ av = 0.0133
-+ bv = 0.0302
-+ tref = 30.0
-+ vt = 3.531e-3
-+ ut = 7.238e-6
+.subckt sky130_fd_pr__res_iso_pw r0 r1 b
+.param l=-1 mult=1.0
++  w=2.65
++  dl=0.52
++  av=0.0133
++  bv=0.0302
++  tref=30.0
++  local_vt=3.531e-3
++  ut=7.238e-6
 rpwres r0 r1
-+ r = rspwres*((l+dl)/w)*(1-av*(max(v(r0),v(r1))-min(v(r0),v(r1))))*(1+bv*(v(b)-min(v(r0),v(r1))))*(1+vt*(temper-tref)+ut*(temper-tref)*(temper-tref))
++  r=rspwres*((l+dl)/w)*(1-av*(max(v(r0),v(r1))-min(v(r0),v(r1))))*(1+bv*(v(b)-min(v(r0),v(r1))))*(1+vt*(temper-tref)+ut*(temper-tref)*(temper-tref))
 .ends sky130_fd_pr__res_iso_pw

@@ -15,6 +15,6 @@
 * SKY130 Spice File.
 * Number of bins: 52
 .param
-+ sky130_fd_pr__pfet_01v8__ajunction_mult = 0.90161
-+ sky130_fd_pr__pfet_01v8__pjunction_mult = 0.90587
++  sky130_fd_pr__pfet_01v8__ajunction_mult=0.90161
++  sky130_fd_pr__pfet_01v8__pjunction_mult=0.90587
 .include "sky130_fd_pr__pfet_01v8__fs.pm3.spice"

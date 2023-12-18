@@ -4,8 +4,8 @@
 .include "../sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4_top.spice"
 .lib "../../../models/sky130.lib.spice" tt
 
-.param freq = 1Meg
-.csparam freq = {freq}
+.param freq=1Meg
+.csparam freq={freq}
 
 * Resistor bridge with capacitance
 V1 N2 0 1.8
@@ -23,7 +23,7 @@ R4 N2 N4 1.4Meg
 .control
 run
 echo capacitance
-print imag(1/v(N4,N3))/2/PI/freq
+print imag ( 1/v ( N4,N3 ) ) /2/PI/freq
 quit
 .endc
 

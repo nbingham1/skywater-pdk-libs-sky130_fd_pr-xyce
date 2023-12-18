@@ -13,9 +13,8 @@
 * limitations under the License.
 
 * SKY130 Spice File.
-.subckt  sky130_fd_pr__esd_rf_diode_pd2nw_11v0_200 c0 c1
-+ 
-.param  area = -1 perim = -1.0
-resd_pdiode_h_200 c0     a1  r = 0.86977
-d1 a1    c1 sky130_fd_pr__diode_pd2nw_11v0__no_rs area = {area*1.76}
+.subckt sky130_fd_pr__esd_rf_diode_pd2nw_11v0_200 c0 c1
+.param area=-1 perim=-1.0
+resd_pdiode_h_200 c0 a1 r=0.86977
+d1 a1 c1 sky130_fd_pr__diode_pd2nw_11v0__no_rs area={area*1.76}
 .ends sky130_fd_pr__esd_rf_diode_pd2nw_11v0_200

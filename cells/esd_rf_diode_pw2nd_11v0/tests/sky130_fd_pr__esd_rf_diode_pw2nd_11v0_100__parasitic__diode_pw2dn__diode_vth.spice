@@ -15,13 +15,13 @@ Vdd 5 0 DC 0V
 * Sweep Vdd from 0 to 2.0V
 dc Vdd 0 2.0 0.05
 * NOTE:  Internally accessed names MUST be in lowercase
-wrdata sky130_fd_pr__esd_rf_diode_pw2nd_11v0_100__parasitic__diode_pw2dn__iv.data -Vid#branch V(3)
+wrdata sky130_fd_pr__esd_rf_diode_pw2nd_11v0_100__parasitic__diode_pw2dn__iv.data -Vid#branch V ( 3 )
 * Find threshold
 let ih=-Vid#branch[38]
 let il=-Vid#branch[28]
 let vh=V(3)[38]
 let vl=V(3)[28]
-let vth=((vl - vh) / (ih - il)) * ih + vh
+let vth=((vl - vh ) / ( ih - il ) ) * ih vh
 echo threshold voltage
 print vth
 quit

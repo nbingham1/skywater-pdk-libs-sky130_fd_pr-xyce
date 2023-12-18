@@ -3,10 +3,10 @@
 * Include SkyWater sky130 device models
 .include "../../../models/sky130_fd_pr__model__inductors.model.spice"
 
-.param lofreq = 1Meg
-.csparam lofreq = {lofreq}
-.param hifreq = 10G
-.csparam hifreq = {hifreq}
+.param lofreq=1Meg
+.csparam lofreq={lofreq}
+.param hifreq=10G
+.csparam hifreq={hifreq}
 
 V1 N2 0 1.8
 IAC N2 N3 dc 0 ac 1

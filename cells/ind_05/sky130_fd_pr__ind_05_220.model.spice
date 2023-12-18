@@ -13,7 +13,7 @@
 * limitations under the License.
 
 * SKY130 Spice File.
-.subckt  sky130_fd_pr__ind_05_220 a b ct sub
+.subckt sky130_fd_pr__ind_05_220 a b ct sub
 R31 net27 b r='1e-2'
 R26 a net23 r='1e-2'
 C2 net27 net31 c='223.7e-15'
@@ -24,6 +24,6 @@ R4 net41 net27 r='2.059'
 R13 net23 net35 r='9.064'
 R10 sub net37 r='5.358e3'
 R9 net23 net39 r='2.059'
-    L1 net39 ct l=4.96e-9
-    L3 ct net41 l=4.96e-9
+L1 net39 ct l=4.96e-9
+L3 ct net41 l=4.96e-9
 .ends sky130_fd_pr__ind_05_220
